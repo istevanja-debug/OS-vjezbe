@@ -1,0 +1,32 @@
+Zadatak 1 
+
+pwd
+ls
+mkdir vjezba1 && cd vjezba1
+touch README.md 
+cd .. 
+
+Zadatak 2
+
+mkdir vjezba2 && cd vjezba2 && touch file.txt
+cp file.txt file_copy.txt
+ls
+rm file.txt && cd .. 
+echo "Direktorij vjezba2 se ne moze obrisati jer nije prazan - jos sadrzi file_copy.txt"
+
+Zadatak 3 
+
+mkdir vjezba3 && cd vjezba3 && mkdir backup 
+touch notes.txt && touch todo.txt && touch script.sh
+cp notes.txt backup && cp todo.txt backup && cp script.sh backup
+rm script.sh && ls 
+cd backup && mkdir $USERNAME
+mv notes.txt ivona && mv todo.txt ivona && mv script.sh $USERNAME
+
+Zadatak 4 
+
+mkdir vjezba4 && cd vjezba4 && mkdir subfolder
+touch $HOSTNAME
+mv $HOSTNAME $USERNAME 
+mv $USERNAME subfolder
+rm 
