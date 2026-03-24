@@ -1,0 +1,39 @@
+mkdir OS2
+  112  cd OS2
+  113  touch vjezba_2.txt
+  114  touch vjezba_2_history.txt
+  115  mkdir -p vjezba_2/backup
+  116  cd vjezba_2
+  117  mkdir data
+  118  cd data
+  119  echo 'console.log("Hello, World!")' > script.js
+  120  echo 'body { background-color: #f0f0f0; }' > style.css
+  121  echo 'VJEZBE=OS' > .env
+  122  cat script.js
+  123  cat style.css
+  124  cat .env
+  125  cp -rav data/. backup/
+  126  cd ..
+  127  cp -rav data/. backup/
+  128  ls -ASh backup
+  129  cd data
+  130  ls -ASh ~/OS-vjezbe/OS2/vjezba_2/backup
+  131  ls
+  132  ls -a
+  133  rm -r ./*
+  134  ls -a
+  135  rm -ra ./*
+  136  cd ..
+  137  cp -anv backup/. data/
+  138  ls -At -1 data
+  139  ls -colora data
+  140  cd D
+  141  cd ~/D:/'Ivan Papa'
+  142  cd ~/D/'Ivan Papa'
+  143  cd /d/Ivan\ Papa
+  144  cd 'vizitka canva, logo'
+  145  ls -alS
+  146  ls -alhS
+  147  ls -lSh
+  148  tree
+  149  ls -R
