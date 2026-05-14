@@ -3,7 +3,7 @@
 Komentar: Izrađivala sam Virtual Box prateći skriptu, tako da sam vidjela da ime korisnika mora biti u formatu ime.prezime tek na kraju. Ja sam davno prije toga već postavila ime samo kao "ivona". Nadam se da to nije problem.
 
 ### Početni zaslon VM-a
-![Pocetni](pocetni_zaslong.png)
+![Pocetni](pocetni_zaslon.png)
 
 ### Ažuriranje paketa 
 ![azuriranje](azuriranje_paketa.png)
