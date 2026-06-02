@@ -1,10 +1,5 @@
 OS5
 # Zadatak 1
-Instalirajte python3 paket na vašem VM-u. Unutar home direktorija stvorite direktorij python3 i datoteku
-hello.py koja ispisuje "Hello World!", a nakon 100 sekundi ispisuje "Goodbye World!".
-Pokrenite skriptu i prebacite se u drugi terminal ili pokrenite u pozadini. Unutar htop alata ispišite i
-objasnite sve detalje o procesu koji je pokrenut.
-Napišite barem 3 načina kako biste prekinuli taj proces naredbom kill 
 
 sudo apt install python3
 pwd //direktorij je već home
@@ -41,6 +36,7 @@ pkill python3
 
 
 # Zadatak 2
+
 cd .. && mkdir old_dir && mkdir new_dir
 cd old_dir
 touch kravisa.sh && touch hiThere.py && touch ounou.js 
