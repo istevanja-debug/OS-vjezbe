@@ -102,7 +102,8 @@ Vlasnik može čitati i pisati, nitko drugi ne može ništa.
   
 # Zadatak 5
 nano dozvole.sh  
-  
+
+![Dozvole](dozvole_cijelo.png)
 ![Dozvole](dozvole.png)
 
 
